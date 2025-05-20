@@ -16,7 +16,7 @@ def count_vowels(string: str) -> int:
 
 
 # FIVE POINTS
-def filter_even_numbers(numbers):
+def filter_even_numbers(n: list[int]) -> list[int]:
     """
     This function takes a list of integers `numbers` and returns a new list 
     containing only the even numbers from the original list.
@@ -51,3 +51,12 @@ def diagonal_sum(matrix: list[list[int]]) -> int:
                   [7, 8, 9]]) → 15
     Why? the diagonal sum is taking 1, 5 and 9.
     """
+
+
+value = diagonal_sum([
+    [1, 3, 0],
+    [2, 0, 8],
+    [1, 2, 7]
+])
+
+print(value)
